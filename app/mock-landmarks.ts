@@ -13,7 +13,7 @@ export const LANDMARKS: Landmark[] = [
             "\n\n" +
             "Whether you are camping or staying in a hotel, don’t forget to spend some time looking up at the sky " +
             "after night falls. You’ll find some of the darkest skies in and around Utah’s national parks.",
-        image: "~/images/wow.jpg",
+        image: "~/images/wowburger.jpg",
         location: "Utah",
         likes: 245,
         comments: 23
@@ -39,7 +39,7 @@ export const LANDMARKS: Landmark[] = [
             "meadows and lakes. Its diverse habitats are home to over 70 species of mammals and over 260 species of birds. " +
             "The spectacular glaciated landscape is a hiker’s paradise, containing 700 miles of maintained trails that lead " +
             "deep into one of the largest intact ecosystems in the lower 48 states.",
-        image: "~/images/tram.jpg",
+        image: "~/images/tramline.jpg",
         location: "Montana",
         likes: 152,
         comments: 16
@@ -86,7 +86,7 @@ export const LANDMARKS: Landmark[] = [
             "One of the most exciting ways to experience the Grand Canyon is to float through it by way of raft on the Colorado River. " +
             "Most people book their trip with a commercial outfitter and you can even combine the rafting trip with a helicopter ride. " +
             "Experienced whitewater rafter? Enter the lottery to do your own trip.",
-        image: "~/images/Ever.jpg",
+        image: "~/images/everleigh.jpg",
         location: "Arizona",
         likes: 514,
         comments: 49
@@ -103,14 +103,14 @@ export const LANDMARKS: Landmark[] = [
             "for everyone at Bryce Canyon. Our favorite easy hikes include Bristlecone Loop Trail and Queens Garden Trail. " +
             "Hat Shop is our favorite moderate hike. For more physically fit hikers looking for a strenuous adventure, " +
             "do the 5.5-mile vertically challenging Peek-A-Boo Loop or the 7.9 Fairyland Loop rated “difficult” by the park service. ",
-        image: "~/images/work.jpg",
+        image: "~/images/workmans.jpg",
         location: "Utah",
         likes: 245,
         comments: 11
     },
     {
         id: 5,
-        name: "Wagamama's",
+        name: "Wagamamas",
         description: "Grand Teton National Park preserves a spectacular landscape rich with majestic mountains, pristine lakes, " +
             "and extraordinary wildlife. The abrupt vertical rise of the jagged Teton Mountains contrasts with the horizontal " +
             "sage-covered valley and glacial lakes at its base." +
@@ -125,14 +125,14 @@ export const LANDMARKS: Landmark[] = [
             "one of the nation's most awe-inspiring landscapes. In addition to gazing at the incredible views, there is much to do " +
             "in this park from hiking and rock climbing to boating and fishing. And when you need a break from outdoor adventure, " +
             "there are few better places to simply relax and watch the park's incredible wildlife.",
-        image: "~/images/wag.jpg",
+        image: "~/images/wagamamas.jpg",
         location: "Wyoming",
         likes: 169,
         comments: 7
     },
     {
         id: 6,
-        name: "Sarah's Restaurant",
+        name: "Diceys",
         description: "Explore South Dakota’s Black Hills region, a natural wonder in its own right. " +
             "Located about six hours from Yellowstone, the Black Hills are home to seven national " +
             "sites — Badlands National Park, Jewel Cave National Monument, the Lewis & Clark National " +
@@ -151,7 +151,7 @@ export const LANDMARKS: Landmark[] = [
             "At the Ben Reifel Visitor Center, kids can use a touchscreen to assemble a virtual skeleton and " +
             "touch fossilized animal replicas. You also can watch the film Land of Stone and Light in " +
             "the center’s 95-seat air-conditioned theater.",
-        image: "~/images/test.jpg",
+        image: "~/images/diceys.jpg",
         location: "South Dakota",
         likes: 227,
         comments: 26
