@@ -1,7 +1,7 @@
 <ActionBar class="action-bar" backgroundColor="#ffe">
 	<NavigationButton visibility="collapsed"></NavigationButton>
 	<GridLayout columns="auto,*,auto" ios:padding="0 10" height="100%" width="100%">
-		<ActionButton #actionButton ></ActionButton>
+		<ActionButton #actionButton (tap)="onDrawerButtonTap($event)" ></ActionButton>
 		<Label col="1" text="Discounts" class="action-bar-label" color="black"></Label>
 		<Image #search col="2" src="~/icons/search.png" class="action-bar-icon" tintColor="#2a2a2a"></Image>
 	</GridLayout>
