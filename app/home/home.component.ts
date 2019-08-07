@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef } from "@angular/core";
+import { Component, ViewChild, ElementRef, OnInit} from "@angular/core";
 import { PlatformLocation } from '@angular/common';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Landmark } from "../landmark";
@@ -13,6 +13,8 @@ import { device } from "platform";
 import { AnimationsService } from "../animations-service";
 import { LandmarksService } from "../landmarks-service";
 import { ActionButtonComponent } from "../action-button/action-button.component";
+import { RadSideDrawer } from "nativescript-ui-sidedrawer";
+import * as app from "tns-core-modules/application";
 
 @Component({
     selector: "Home",
@@ -20,7 +22,7 @@ import { ActionButtonComponent } from "../action-button/action-button.component"
     templateUrl: "./home.component.html",
     styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
     private _landmarks: Landmark[];
     private _selectedView: View;
     private _adjustedOffset: number = 0;
@@ -53,6 +55,11 @@ export class HomeComponent {
         if (ios) {
             topmost().ios.controller.navigationBar.barStyle = 1;
         }
+    }
+
+    onDrawerButtonTap(): void {
+        const sideDrawer = <RadSideDrawer>app.getRootView();
+        sideDrawer.showDrawer();
     }
 
     get landmarks() {
