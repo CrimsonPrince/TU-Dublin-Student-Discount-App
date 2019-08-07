@@ -1,0 +1,22 @@
+<ActionBar class="action-bar" backgroundColor="#ffe">
+	<NavigationButton visibility="collapsed"></NavigationButton>
+	<GridLayout columns="auto,*,auto" ios:padding="0 10" height="100%" width="100%">
+		<ActionButton #actionButton ></ActionButton>
+		<Label col="1" text="Discounts" class="action-bar-label" color="black"></Label>
+		<Image #search col="2" src="~/icons/search.png" class="action-bar-icon" tintColor="#2a2a2a"></Image>
+	</GridLayout>
+</ActionBar>
+
+<GridLayout height="100%">
+	<ListView #list [items]="landmarks" (itemTap)="onNavigationItemTap($event)">
+		<ng-template let-item="item">
+			<GridLayout class="list-item">
+				<Image [src]="item.image"></Image>
+				<Label [text]="item.name" class="item-title"></Label>
+			</GridLayout>
+		</ng-template>
+	</ListView>
+	<AbsoluteLayout #animatingImageContainer opacity="0" class="animating-image-container">
+		<Image #animatingImage width="100%"></Image>
+	</AbsoluteLayout>
+</GridLayout>
