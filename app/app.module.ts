@@ -8,7 +8,7 @@ import { AppComponent } from "./app.component";
 
 import { AnimationsService } from "./animations-service";
 import { LandmarksService } from "./landmarks-service";
-
+import { Landmarks2Service } from "./landmarks2-service";
 @NgModule({
     bootstrap: [
         AppComponent
@@ -23,7 +23,8 @@ import { LandmarksService } from "./landmarks-service";
     ],
     providers: [
         AnimationsService,
-        LandmarksService
+        LandmarksService,
+        Landmarks2Service
     ],
     schemas: [
         NO_ERRORS_SCHEMA
