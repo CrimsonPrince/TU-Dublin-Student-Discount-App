@@ -9,8 +9,8 @@ import { NativeScriptUIAutoCompleteTextViewModule } from "nativescript-ui-autoco
 import { NativeScriptUIGaugeModule } from "nativescript-ui-gauge/angular";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
-import { HomeRoutingModule } from "./home-routing.module";
-import { HomeComponent } from "./home.component";
+import { HomeRoutingModule } from "./home2-routing.module";
+import { HomeComponent } from "./home2.component";
 import { ActionButtonModule } from "../action-button/action-button.module";
 
 @NgModule({
@@ -34,4 +34,4 @@ import { ActionButtonModule } from "../action-button/action-button.module";
         NO_ERRORS_SCHEMA
     ]
 })
-export class HomeModule { }
+export class Home2Module { }

@@ -10,12 +10,12 @@ var angular_5 = require("nativescript-ui-dataform/angular");
 var angular_6 = require("nativescript-ui-autocomplete/angular");
 var angular_7 = require("nativescript-ui-gauge/angular");
 var forms_1 = require("nativescript-angular/forms");
-var home_routing_module_1 = require("./home-routing.module");
-var home_component_1 = require("./home.component");
-var HomeModule = /** @class */ (function () {
-    function HomeModule() {
+var home_routing_module_1 = require("./home2-routing.module");
+var home_component_1 = require("./home2.component");
+var Home2Module = /** @class */ (function () {
+    function Home2Module() {
     }
-    HomeModule = __decorate([
+    Home2Module = __decorate([
         core_1.NgModule({
             imports: [
                 angular_1.NativeScriptUISideDrawerModule,
@@ -36,7 +36,7 @@ var HomeModule = /** @class */ (function () {
                 core_1.NO_ERRORS_SCHEMA
             ]
         })
-    ], HomeModule);
-    return HomeModule;
+    ], Home2Module);
+    return Home2Module;
 }());
-exports.HomeModule = HomeModule;
+exports.Home2Module = Home2Module;

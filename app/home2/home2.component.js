@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var HomeComponent = /** @class */ (function () {
-    function HomeComponent() {
+var Home2Component = /** @class */ (function () {
+    function Home2Component() {
     }
     HomeComponent.prototype.ngOnInit = function () {
     };
@@ -10,11 +10,11 @@ var HomeComponent = /** @class */ (function () {
         core_1.Component({
             selector: "Home",
             moduleId: module.id,
-            templateUrl: "./home.component.html",
-            styleUrls: ["./home.component.css"]
+            templateUrl: "./home2.component.html",
+            styleUrls: ["./home2.component.css"]
         }),
         __metadata("design:paramtypes", [])
-    ], HomeComponent);
-    return HomeComponent;
+    ], Home2Component);
+    return Home2Component;
 }());
-exports.HomeComponent = HomeComponent;
+exports.Home2Component = Home2Component;
