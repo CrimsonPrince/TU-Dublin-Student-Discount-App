@@ -11,7 +11,7 @@ import { Color } from "color";
 import { android, ios } from "application";
 import { device } from "platform";
 import { AnimationsService } from "../animations-service";
-import { LandmarksService } from "../landmarks-service";
+import { Landmarks2Service } from "../landmarks2-service";
 import { ActionButtonComponent } from "../action-button/action-button.component";
 import { RadSideDrawer } from "nativescript-ui-sidedrawer";
 import * as app from "tns-core-modules/application";
@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
     @ViewChild("animatingImageContainer",{static: true}) _imageContainerRef: ElementRef;
 
     constructor(private animationsService: AnimationsService,
-        private landmarksService: LandmarksService,
+        private landmarksService: Landmarks2Service,
         private routerExtensions: RouterExtensions,
         private page: Page,
         private location: PlatformLocation) {
