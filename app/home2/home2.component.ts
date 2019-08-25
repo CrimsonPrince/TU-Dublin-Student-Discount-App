@@ -51,7 +51,7 @@ export class HomeComponent implements OnInit {
         this.location.onPopState(() => {
             this._onNavigatedTo();
         });
-
+        this.page.actionBarHidden = true;
         if (ios) {
             topmost().ios.controller.navigationBar.barStyle = 1;
         }
