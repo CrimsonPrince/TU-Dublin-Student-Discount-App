@@ -10,29 +10,26 @@ export class CategoryService {
   private categories: Category[] = [
     {
       id: '1',
-      name: "Food",
-      imageUrl: "https://arthurcoll.com/img/avatar.jpg"
+      name: 'Food',
+      imageUrl: 'https://arthurcoll.com/img/avatar.jpg'
     },
     {
       id: '2',
-      name: "Night",
-      imageUrl: "https://arthurcoll.com/img/avatar.jpg"
+      name: 'Night',
+      imageUrl: 'https://arthurcoll.com/img/avatar.jpg'
     }
   ];
 
 
   constructor() { }
 
-  getAllCategories()
-  {
+  getAllCategories() {
     return [...this.categories];
   }
 
-  getCategory(categoryId: string)
-  {
+  getCategory(categoryId: string) {
     return { ...this.categories.find(category => {
       return category.id === categoryId;
     })};
   }
-  
 }
