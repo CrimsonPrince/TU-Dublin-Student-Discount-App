@@ -8,18 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryPage implements OnInit {
 
-  categories: Category[] = [
-    {
-      id: '1',
-      name: "Food",
-      imageUrl: "https://arthurcoll.com/img/avatar.jpg"
-    },
-    {
-      id: '2',
-      name: "Night",
-      imageUrl: "https://arthurcoll.com/img/avatar.jpg"
-    }
-  ];
 
   constructor() { }
 
