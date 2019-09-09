@@ -6,13 +6,9 @@ const routes: Routes = [
   { path: 'category',
   children: [
     {path: '', loadChildren: './category/category.module#CategoryPageModule'},
-    {path: ':categoryId', loadChildren: './category/discount-list/discount-list.module#DiscountListPageModule'}
+    {path: ':categoryId', loadChildren: './category/discount-list/discount-list.module#DiscountListPageModule'},
+    {path: ':categoryId/:discountId', loadChildren: './category/discount-list/discount-detail/discount-detail.module#DiscountDetailPageModule' }
   ] },
-  { path: 'discount',
-  children: [
-    {path: '', loadChildren: './category/category.module#CategoryPageModule'},
-    {path: ':discountId', loadChildren: './discount-detail/discount-detail.module#DiscountDetailPageModule'}
-  ] }
 ];
 
 @NgModule({
