@@ -12,7 +12,7 @@ export class CategoryService {
     {
       id: '1',
       name: 'Food',
-      imageUrl: 'https://arthurcoll.com/img/avatar.jpg',
+      imageUrl: '../../assets/images/diceys.jpg',
       discounts: [
         {
           id: '1',
@@ -33,7 +33,7 @@ export class CategoryService {
     {
       id: '2',
       name: 'Night',
-      imageUrl: 'https://arthurcoll.com/img/avatar.jpg',
+      imageUrl: '../../assets/images/academy.jpg',
       discounts: []
     }
   ];
