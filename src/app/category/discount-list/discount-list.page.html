@@ -5,5 +5,9 @@
 </ion-header>
 
 <ion-content>
-
+<ion-list>
+  <ion-item *ngFor="let discount of categoryDiscounts">
+    {{discount.name}}
+  </ion-item>
+</ion-list>
 </ion-content>

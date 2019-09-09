@@ -7,6 +7,11 @@ const routes: Routes = [
   children: [
     {path: '', loadChildren: './category/category.module#CategoryPageModule'},
     {path: ':categoryId', loadChildren: './category/discount-list/discount-list.module#DiscountListPageModule'}
+  ] },
+  { path: 'discount',
+  children: [
+    {path: '', loadChildren: './category/category.module#CategoryPageModule'},
+    {path: ':discountId', loadChildren: './discount-detail/discount-detail.module#DiscountDetailPageModule'}
   ] }
 ];
 

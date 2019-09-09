@@ -6,7 +6,7 @@
 
 <ion-content>
 <ion-list> 
-<ion-item  *ngFor='let category of categories'>
+<ion-item  *ngFor='let category of categories' [routerLink]="['/category', category.id]">
   {{ category.name }}
   <ion-avatar slot="start"> 
   <ion-img [src]="category.imageUrl"> 
