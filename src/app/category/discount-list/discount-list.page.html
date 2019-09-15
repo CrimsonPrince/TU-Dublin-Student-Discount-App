@@ -4,10 +4,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content >
 <ion-list>
-  <ion-item *ngFor="let discount of categoryDiscounts" [routerLink]="['/category', currentCategory.id, discount.id]">
-    {{discount.name}}
+  <ion-item class="test" *ngFor="let discount of categoryDiscounts" detail="false" no-padding mode='md'>
+    <ion-img [routerLink]="['/category', currentCategory.id, discount.id]" [src]="discount.imageUrl"> </ion-img>  
+    <div class="img-description"> Testicles</div>
   </ion-item>
 </ion-list>
 </ion-content>

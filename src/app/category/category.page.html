@@ -5,14 +5,13 @@
 </ion-header>
 
 <ion-content>
-<ion-list> 
-<ion-item  *ngFor='let category of categories' [routerLink]="['/category', category.id]">
-  {{ category.name }}
-  <ion-avatar slot="start"> 
-  <ion-img [src]="category.imageUrl"> 
 
-  </ion-img>
-</ion-avatar>
+  <ion-list >
+    <ion-item>
+  <ion-card  *ngFor='let category of categories' [routerLink]="['/category', category.id]"> 
+  <ion-img [src]="category.imageUrl"></ion-img>
+</ion-card>
 </ion-item>
 </ion-list>
+
 </ion-content>
