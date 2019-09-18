@@ -1,5 +1,7 @@
 {
   "name": "ionic-tudublin",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

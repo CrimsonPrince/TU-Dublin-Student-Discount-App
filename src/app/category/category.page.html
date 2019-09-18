@@ -7,10 +7,9 @@
 <ion-content>
 
   <ion-list >
-    <ion-item>
-  <ion-card  *ngFor='let category of categories' [routerLink]="['/category', category.id]"> 
+    <ion-item  *ngFor='let category of categories' [routerLink]="['/category', category.id]" detail="false" no-padding mode='md'>
   <ion-img [src]="category.imageUrl"></ion-img>
-</ion-card>
+  <div class="img-description"> {{ category.name }}</div>
 </ion-item>
 </ion-list>
 

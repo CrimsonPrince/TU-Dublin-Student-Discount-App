@@ -1,0 +1,7 @@
+{
+  "appId": "com.arthurcoll.tudublin",
+  "appName": "tu dublin society discounts",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

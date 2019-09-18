@@ -18,49 +18,49 @@ export class CategoryService {
           id: '1',
           name: 'Pablo Picante',
           details: '4.99 Off Peak Burrito\'s in Aston Quay after 2pm',
-          imageUrl: '/assets/images/diceys.jpg',
+          imageUrl: '/assets/images/pabloPicante.jpg',
           location: 'Aston Quay'
         },
         {
           id: '2',
           name: 'Captain Americas',
-          details: 'Lorem',
-          imageUrl: 'he',
+          details: 'Captain America\'s BUY 1 GET 1 FREE ON MAIN MEALS - (Monday - Friday) valid Student Id/Captains key tags or society card. €4 selected cocktails &amp; €3.50 selected pints (Monday to Wednesday) valid Student Id/Captains key tags or society card.',
+          imageUrl: '/assets/images/captainAmerica.jpg',
           location: 'dublin'
         },
         {
           id: '3',
           name: 'Wowburger',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/wowburger.jpg',
           location: 'dublin'
         },
         {
           id: '4',
           name: 'Bison Bar and BBQ',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/bisonBar.jpg',
           location: 'dublin'
         },
         {
           id: '5',
           name: 'Wagamamas',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/wagamamas.jpg',
           location: 'dublin'
         },
         {
           id: '6',
           name: 'Breakfest Me',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/breakfestMe.jpg',
           location: 'dublin'
         },
         {
           id: '7',
           name: 'Leon Temple Bar',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/leon.png',
           location: 'dublin'
         }
       ]
@@ -73,7 +73,7 @@ export class CategoryService {
         {
           id: '1',
           name: 'EverLeigh',
-          details: 'Lorem',
+          details: ' ',
           imageUrl: '/assets/images/everleigh.jpg',
           location: 'dublin'
         },
@@ -88,7 +88,7 @@ export class CategoryService {
           id: '3',
           name: 'Woolshed',
           details: 'Lorem',
-          imageUrl: '/assets/images/tramline.jpg',
+          imageUrl: '/assets/images/woolShed.jpg',
           location: 'dublin'
         },
         {
@@ -102,7 +102,7 @@ export class CategoryService {
           id: '5',
           name: 'The Backpage',
           details: 'Lorem',
-          imageUrl: '/assets/images/wowburger.jpg',
+          imageUrl: '/assets/images/backPage.jpg',
           location: 'dublin'
         }
 
@@ -117,35 +117,35 @@ export class CategoryService {
           id: '1',
           name: 'Tower Records',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/towerRecords.jpg',
           location: 'dublin'
         },
         {
           id: '2',
           name: 'Muji',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/muji.jpg',
           location: 'dublin'
         },
         {
           id: '3',
           name: 'Aungier Print',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/aungierPrint.jpg',
           location: 'dublin'
         },
         {
           id: '4',
           name: 'Savoy Cinema',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/savoyCinema.jpg',
           location: 'dublin'
         },
         {
           id: '5',
           name: 'Grafton barbers',
           details: 'Lorem',
-          imageUrl: 'he',
+          imageUrl: '/assets/images/graftonBarbers.jpg',
           location: 'dublin'
         }
       ]

@@ -8,7 +8,7 @@
 <ion-list>
   <ion-item class="test" *ngFor="let discount of categoryDiscounts" detail="false" no-padding mode='md'>
     <ion-img [routerLink]="['/category', currentCategory.id, discount.id]" [src]="discount.imageUrl"> </ion-img>  
-    <div class="img-description"> Testicles</div>
+    <div class="img-description"> {{ discount.name }}</div>
   </ion-item>
 </ion-list>
 </ion-content>

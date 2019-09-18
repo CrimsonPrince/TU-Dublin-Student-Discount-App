@@ -5,5 +5,18 @@
 </ion-header>
 
 <ion-content>
-{{currentDiscount.name}}
+<ion-img [src]="currentDiscount.imageUrl"> </ion-img>
+<ion-text>
+  <h4> {{currentDiscount.name}} </h4>
+</ion-text>
+<ion-item detail="false" no-padding mode='md'>
+  <ion-icon item-start name="pin"></ion-icon>
+  <p> {{currentDiscount.location}} </p>
+</ion-item>
+
+<ion-text>
+  <p>
+    {{currentDiscount.details}}
+  </p>
+</ion-text>
 </ion-content>
