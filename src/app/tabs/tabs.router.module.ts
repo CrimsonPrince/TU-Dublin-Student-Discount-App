@@ -11,7 +11,7 @@ const routes: Routes = [
         path: 'all',
         children: [
           {
-            path: ':categoryId',
+            path: '',
             loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule'
           }
         ]
@@ -56,7 +56,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/tabs',
+    redirectTo: '/tabs/all',
     pathMatch: 'full'
   }
 ];

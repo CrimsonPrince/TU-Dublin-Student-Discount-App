@@ -6,8 +6,8 @@
 
 <ion-content >
 <ion-list>
-  <ion-item class="test" *ngFor="let discount of categoryDiscounts" detail="false" no-padding mode='md'>
-    <ion-img [routerLink]="['/category', currentCategory.id, discount.id]" [src]="discount.imageUrl"> </ion-img>  
+  <ion-item class="test ion-no-padding" *ngFor="let discount of categoryDiscounts" detail="false" mode='md'>
+    <ion-img [routerLink]="['/category', discount.category , discount.id]" [src]="discount.imageUrl"> </ion-img>  
     <div class="img-description"> {{ discount.name }}</div>
   </ion-item>
 </ion-list>
