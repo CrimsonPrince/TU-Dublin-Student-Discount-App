@@ -231,8 +231,8 @@
       --ion-border-color: #2a2a2a;
       --ion-background-color: var(--ion-color-dark);
       --ion-background-color-rgb: var(--ion-color-dark-rgb);
-      --ion-text-color: #ffffff;
-      --ion-text-color-rgb: 255, 255, 255;
+      --ion-text-color: #000;
+      --ion-text-color-rgb: 0, 0 ,0;
   
       --ion-color-step-50: #232323;
       --ion-color-step-100: #2e2e2e;
@@ -257,10 +257,10 @@
   
     .md {
       /* Use the dark color as the background for the toolbar */
-      --ion-toolbar-background: var(--ion-color-dark);
+      --ion-toolbar-background:#fff;
   
       /* Change the color of the toolbar components */
-      --ion-toolbar-color: #fff;
+      --ion-toolbar-color: #000;
   
       /* Change the color of the activated toolbar components */
       --ion-toolbar-color-activated: #fff;

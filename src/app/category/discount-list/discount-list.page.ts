@@ -14,6 +14,7 @@ export class DiscountListPage implements OnInit {
   currentCategory: Category;
   categoryDiscounts: Discount[];
   categoryList: Category[];
+  pageTitle: string;
 
   constructor(private activatedRoute: ActivatedRoute, private categoryService: CategoryService) {
 
@@ -24,13 +25,14 @@ export class DiscountListPage implements OnInit {
     this.activatedRoute.paramMap.subscribe( paramMap => {
       if (!paramMap.has('categoryId')) {
         this.categoryList =  this.categoryService.getAllCategories();
+        this.pageTitle = 'All';
         this.categoryList.forEach(Categorys => { 
           this.categoryDiscounts = this.categoryDiscounts.concat(Categorys.discounts);
        });
       } else {
-        console.log('Activated');
         this.currentCategory = this.categoryService.getCategory(paramMap.get('categoryId'));
         this.categoryDiscounts = this.currentCategory.discounts;
+        this.pageTitle = this.currentCategory.name;
       }
     });
   }
