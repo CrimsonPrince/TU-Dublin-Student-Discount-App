@@ -47,8 +47,8 @@ const routes: Routes = [
         path: 'about',
         children: [
           {
-            path: ':categoryId',
-            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule'
+            path: '',
+            loadChildren: '../about/about.module#AboutPageModule'
           }
         ]
       }
