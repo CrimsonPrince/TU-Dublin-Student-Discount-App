@@ -10,7 +10,8 @@ const routes: Routes = [
     {path: ':categoryId', loadChildren: './category/discount-list/discount-list.module#DiscountListPageModule'},
     {path: ':categoryId/:discountId', loadChildren: './category/discount-list/discount-detail/discount-detail.module#DiscountDetailPageModule' }
   ] },
-  { path: 'about', loadChildren: './about/about.module#AboutPageModule' }
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'home', loadChildren: './home/home.module#HomePageModule' }
  ];
 
 @NgModule({
