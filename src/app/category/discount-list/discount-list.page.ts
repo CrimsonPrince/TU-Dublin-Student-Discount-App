@@ -16,10 +16,12 @@ export class DiscountListPage implements OnInit {
   categoryList: Category[];
   pageTitle: string;
 
+
   constructor(private activatedRoute: ActivatedRoute, private categoryService: CategoryService) {
 
    }
 
+ 
   ngOnInit() {
     this.categoryDiscounts = [];
     this.activatedRoute.paramMap.subscribe( paramMap => {

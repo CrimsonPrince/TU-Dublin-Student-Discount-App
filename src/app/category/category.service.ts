@@ -33,7 +33,7 @@ export class CategoryService {
         {
           id: '3',
           name: 'Wowburger',
-          details: 'Lorem',
+          details: 'Wowburger society/student union discount 19/20 Text for your membership cards – note card must be printed with updated logo attached to this email. All old logos will not be accepted. Wowburger €9.95 Student Meal - 7 days a week ! Terms &amp; Conditions Offer valid 7 days. Offer valid with eat in only ! Offer expires August 31st 2020 Offer valid in all Wowburger outlets. Offer not valid with any other offer. Valid Student ID / keyring required in order to avail of this offer. Use of the offer is confirmation of acceptance of all terms and conditions. Wowburger Student Meal Deal €9.95 - 7 days a week Wowburger reserves the right to change the terms of this offer. Any changes in terms will be given in writing 1 month in advance of any change. Card will only be accepted with logo attached to this mail – any cards with previous logo will NOT be accepted. Soft copy of card must be emailed to student@pressup.ie before the start of term.',
           imageUrl: '/assets/images/wowburger.jpg',
           location: 'dublin',
           category: '1'
@@ -41,7 +41,7 @@ export class CategoryService {
         {
           id: '4',
           name: 'Bison Bar and BBQ',
-          details: 'Lorem',
+          details: '',
           imageUrl: '/assets/images/bisonBar.jpg',
           location: 'dublin',
           category: '1'
