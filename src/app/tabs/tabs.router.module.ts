@@ -51,12 +51,21 @@ const routes: Routes = [
             loadChildren: '../about/about.module#AboutPageModule'
           }
         ]
+      },
+      {
+        path: 'qr',
+        children: [
+          {
+            path: '',
+            loadChildren: '../home/home.module#HomePageModule'
+          }
+        ]
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/all',
+    redirectTo: '/tabs/qr',
     pathMatch: 'full'
   }
 ];
