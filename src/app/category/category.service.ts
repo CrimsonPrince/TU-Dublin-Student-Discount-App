@@ -21,7 +21,7 @@ export class CategoryService {
           imageUrl: '/assets/images/pabloPicante.jpg',
           location: 'Aston Quay',
           category: '1',
-          altUrl:
+          altUrl: '/assets/images/pabloAlt2.png'
         },
         {
           id: '2',
@@ -30,7 +30,7 @@ export class CategoryService {
           imageUrl: '/assets/images/captainAmerica.jpg',
           location: 'Grafton St, Cork, Blanchardstown restaurants only.',
           category: '1',
-          altUrl:
+          altUrl: '/assets/images/captainAmerica.jpg'
         },
         {
           id: '3',
@@ -39,7 +39,7 @@ export class CategoryService {
           imageUrl: '/assets/images/wowburger.jpg',
           location: 'All',
           category: '1',
-          altUrl:
+          altUrl: '/assets/images/wowAlt.png'
         },
         {
           id: '4',
@@ -48,7 +48,7 @@ export class CategoryService {
           imageUrl: '/assets/images/bisonBar.jpg',
           location: 'Wellington Quay',
           category: '1',
-          altUrl:
+          altUrl: '/assets/images/bisonAlt.png'
         },
         {
           id: '5',
@@ -57,7 +57,7 @@ export class CategoryService {
           imageUrl: '/assets/images/wagamamas.jpg',
           location: 'south king st, blanchardstown and dundrum',
           category: '1',
-          altUrl:
+          altUrl: '/assets/images/wagamamasAlt.jpg'
         },
         {
           id: '6',
@@ -66,7 +66,7 @@ export class CategoryService {
           imageUrl: '/assets/images/breakfestMe.jpg',
           location: 'Dublin',
           category: '1',
-          altUrl: '/assets/images/breakfestMe.jpg'
+          altUrl: '/assets/images/breakfestMeAlt.png'
         },
         {
           id: '7',
@@ -75,7 +75,7 @@ export class CategoryService {
           imageUrl: '/assets/images/leon.png',
           location: 'Temple Bar',
           category: '1',
-          altUrl:
+          altUrl: '/assets/images/leon.png'
         }
       ]
     },
@@ -91,7 +91,7 @@ export class CategoryService {
           imageUrl: '/assets/images/everleigh.jpg',
           location: 'Harcourt Street',
           category: '2',
-          altUrl:
+          altUrl: '/assets/images/everleighAlt.png'
         },
         {
           id: '2',
@@ -100,7 +100,7 @@ export class CategoryService {
           imageUrl: '/assets/images/workmans.jpg',
           location: '10 Wellington Key',
           category: '2',
-          altUrl:
+          altUrl: '/assets/images/workmansAlt.png'
         },
         {
           id: '3',
@@ -109,7 +109,7 @@ export class CategoryService {
           imageUrl: '/assets/images/woolShed.jpg',
           location: 'Parnell St',
           category: '2',
-          altUrl:
+          altUrl: '/assets/images/woolShed.jpg'
         },
         {
           id: '4',
@@ -118,16 +118,16 @@ export class CategoryService {
           imageUrl: '/assets/images/academy.jpg',
           location: 'Abbey St',
           category: '2',
-          altUrl:
+          altUrl: '/assets/images/academy.jpg'
         },
         {
           id: '5',
           name: 'The Backpage',
-          details: '10% discount, <br> Café | Cocktails | Brunch | Beer | Board Games | Sports | Pizza | Ping Pong | Crazy Golf',
+          details: '10% discount, Café | Cocktails | Brunch | Beer | Board Games | Sports | Pizza | Ping Pong | Crazy Golf',
           imageUrl: '/assets/images/backPage.jpg',
           location: 'Phibsborough',
           category: '2',
-          altUrl:
+          altUrl: '/assets/images/backPage.jpg'
         }
 
       ]
@@ -144,7 +144,7 @@ export class CategoryService {
           imageUrl: '/assets/images/towerRecords.jpg',
           location: '7 Dawson St & 2nd floor Easons O’Connell St',
           category: '3',
-          altUrl:
+          altUrl: '/assets/images/towerRecordsAlt.jpg'
         },
         {
           id: '2',
@@ -153,7 +153,7 @@ export class CategoryService {
           imageUrl: '/assets/images/muji.jpg',
           location: 'Chatham St',
           category: '3',
-          altUrl:
+          altUrl: '/assets/images/mujiAlt.jpg'
         },
         {
           id: '3',
@@ -180,7 +180,7 @@ export class CategoryService {
           imageUrl: '/assets/images/graftonBarbers.jpg',
           location: 'Grafton Street & South Anne Street',
           category: '3',
-          altUrl:
+          altUrl: '/assets/images/graftonAlt.png'
         }
       ]
     }
