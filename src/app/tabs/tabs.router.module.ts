@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
+import { CheckTutorial } from '../check-tutorial.service';
 
 const routes: Routes = [
   {
@@ -12,7 +13,8 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule'
+            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule',
+            canLoad: [CheckTutorial]
           }
         ]
       },
@@ -21,7 +23,8 @@ const routes: Routes = [
         children: [
           {
             path: ':categoryId',
-            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule'
+            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule',
+            canLoad: [CheckTutorial]
           }
         ]
       },
@@ -30,7 +33,8 @@ const routes: Routes = [
         children: [
           {
             path: ':categoryId',
-            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule'
+            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule',
+            canLoad: [CheckTutorial]  
           }
         ]
       },
@@ -39,7 +43,8 @@ const routes: Routes = [
         children: [
           {
             path: ':categoryId',
-            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule'
+            loadChildren: '../category/discount-list/discount-list.module#DiscountListPageModule',
+            canLoad: [CheckTutorial]
           }
         ]
       },
@@ -48,7 +53,8 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: '../about/about.module#AboutPageModule'
+            loadChildren: '../about/about.module#AboutPageModule',
+            canLoad: [CheckTutorial]
           }
         ]
       },
