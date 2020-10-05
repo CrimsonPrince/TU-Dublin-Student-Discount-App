@@ -1,0 +1,7 @@
+{
+  "name": "TuDublin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
