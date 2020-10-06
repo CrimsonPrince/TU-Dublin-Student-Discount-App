@@ -1,12 +1,31 @@
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Capacitor Ionic
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-grid class="justify-center">
+      <ion-text>Barcode Scanner Demo</ion-text>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-card>
+    <img src="assets/barcode.jpeg" />
+    <ion-card-content>
+      <ion-text>This section shows the demo of how to scan a QRCode or Barcode to get the information</ion-text>
+
+      <ion-button color="success" expand="full" (click)="scan()">Scan code</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-item *ngIf="data">
+    <ion-label position="stacked">Scan Format</ion-label>
+    <ion-input [value]="data.format" readonly></ion-input>
+  </ion-item>
+  <ion-item *ngIf="data">
+    <ion-label position="stacked">Scan Information</ion-label>
+    <ion-input [value]="data.text" readonly></ion-input>
+  </ion-item>
 </ion-content>
