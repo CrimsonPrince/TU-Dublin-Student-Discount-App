@@ -6,4 +6,5 @@ export interface Discount {
     location: string;
     altUrl: string;
     shortDetails: string;
+    color: string;
 }

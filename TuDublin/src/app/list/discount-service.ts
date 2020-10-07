@@ -15,7 +15,8 @@ export class DiscountService {
           imageUrl: '/assets/wow-detail.png',
           location: 'All Locations',
           altUrl: "/assets/wow-list.png",
-          shortDetails: "Burger, fries and a soft drink for €9.95 - 7 days a week"
+          shortDetails: "Burger, fries and a soft drink for €9.95 - 7 days a week",
+          color: "dark"
         },
         {
           id: '2',
@@ -24,7 +25,8 @@ export class DiscountService {
           imageUrl: '/assets/work-detail.png',
           location: 'Wellington Quay, Temple Bar',
           altUrl: '/assets/work-list.png',
-          shortDetails: 'Selected spirit and splash for €5'
+          shortDetails: 'Selected spirit and splash for €5',
+          color: "dark"
         },
         {
           id: '3',
@@ -33,7 +35,8 @@ export class DiscountService {
           imageUrl: '/assets/waga-details.jpg',
           location: 'South king Street, Blanchardstown, and Dundrum',
           altUrl: '/assets/waga-list.jpg',
-          shortDetails: '20% off Main Menu Monday – Thursday'
+          shortDetails: '20% off Main Menu Monday – Thursday',
+          color: "light"
         },
         {
           id: '4',
@@ -42,7 +45,8 @@ export class DiscountService {
           imageUrl: '/assets/captains-detail.png',
           location: 'All Locations',
           altUrl: '/assets/captains-list.png',
-          shortDetails: 'Buy one get one FREE on Captain Americas a la carte main course menu items Monday - Friday!'
+          shortDetails: 'Buy one get one FREE on Captain Americas a la carte main course menu items Monday - Friday!',
+          color: "light"
         },
         {
           id: '5',
@@ -51,7 +55,8 @@ export class DiscountService {
           imageUrl: '/assets/bison-detail.png',
           location: 'south king st, blanchardstown and dundrum',
           altUrl: '/assets/bison-list.png',
-          shortDetails: 'Any Burger/Sambo, Any Side & a soft drink or PT Heineken €9.95 (Mon-Fri 12-5pm)'
+          shortDetails: 'Any Burger/Sambo, Any Side & a soft drink or PT Heineken €9.95 (Mon-Fri 12-5pm)',
+          color: "light"
         },
         {
           id: '6',
@@ -60,7 +65,8 @@ export class DiscountService {
           imageUrl: '/assets/tower-details.jpg',
           location: '7 Dawson St & 2nd floor Easons O’Connell St',
           altUrl: '/assets/tower-list.jpg',
-          shortDetails: '7 Dawson St & 2nd floor Easons O’Connell St 10% off discount'
+          shortDetails: '7 Dawson St & 2nd floor Easons O’Connell St 10% off discount',
+          color: "light"
         },
         {
           id: '7',
@@ -69,7 +75,8 @@ export class DiscountService {
           imageUrl: '/assets/muji-details.jpg',
           location: 'Chatham St',
           altUrl: '/assets/muji-list.jpg',
-          shortDetails: 'Chatham St 10% off discount'
+          shortDetails: 'Chatham St 10% off discount',
+          color: "light"
         }
   ];
 
