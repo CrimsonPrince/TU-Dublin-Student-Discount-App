@@ -17,11 +17,12 @@ export class DetailPage implements OnInit {
   constructor(private activatedRoute: ActivatedRoute, private discountService: DiscountService, private router: Router) { }
 
   ngOnInit() {
-
     this.id = this.activatedRoute.snapshot.paramMap.get('discountId');
     this.discount = this.discountService.getById(this.id);
     console.log(this.discount);
+
   }
+
 
   back() {
     console.log("hi")

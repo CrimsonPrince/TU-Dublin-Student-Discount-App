@@ -1,6 +1,6 @@
 <ion-content >
   <ion-list>
-    <ion-card [routerLink]="['/list', discount.id]" *ngFor="let discount of discounts">
+    <ion-card [routerLink]="['/list/', discount.id]" *ngFor="let discount of discounts">
       <img [src]="discount.altUrl" />
       <ion-card-header>
         <ion-card-title> {{ discount.name }} </ion-card-title>
