@@ -1,7 +1,6 @@
 <ion-content>
 <div class="container" style="background-image: url({{discount.imageUrl}});"> 
-  <ion-button [ngIf]="discount.id > 2" (click)="back()" fill="clear" color="light"><ion-icon color="white" slot="icon-only" name="arrow-back-outline"></ion-icon> </ion-button>
-  <ion-button [ngIf]="discount.id  <= 1" (click)="back()" fill="clear" color="dark"><ion-icon color="white" slot="icon-only" name="arrow-back-outline"></ion-icon> </ion-button>
+  <ion-button *ngIf="discount.id === 1 || discount.id === 2" (click)="back()" fill="clear" color="light"><ion-icon color="white" slot="icon-only" name="arrow-back-outline"></ion-icon> </ion-button>
 <div class="text-container"> 
 <ion-card class="title">
 <ion-card-title> {{discount.name}} </ion-card-title>

@@ -47,7 +47,7 @@ export class DiscountService {
         {
           id: '5',
           name: 'Bison Bar And Grill',
-          details: 'Valid &ndash; Monday to Friday 12pm- 5pm (eat in only). Individuals must be 3rd level students and over the age of 18 years old.',
+          details: 'Valid - Monday to Friday 12pm- 5pm (eat in only). Individuals must be 3rd level students and over the age of 18 years old.',
           imageUrl: '/assets/bison-detail.png',
           location: 'south king st, blanchardstown and dundrum',
           altUrl: '/assets/bison-list.png',
