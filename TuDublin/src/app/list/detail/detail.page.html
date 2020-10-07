@@ -1,3 +1,15 @@
 <ion-content>
-
+<div class="container" style="background-image: url({{discount.imageUrl}});"> 
+<div> </div>
+<div class="text-container"> 
+<ion-card class="title">
+<ion-card-title> {{discount.name}} </ion-card-title>
+<ion-card-subtitle> {{discount.shortDetails}} </ion-card-subtitle>
+</ion-card>
+<ion-card class="terms">
+  <ion-card-title> T&Cs </ion-card-title>
+  <ion-text> {{ discount.details }} </ion-text>
+</ion-card>
+</div>
+</div>
 </ion-content>

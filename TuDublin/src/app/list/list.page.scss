@@ -1,11 +1,14 @@
+ion-content{
+    --ion-background-color:#dfdfdf;
+}
+
 ion-card {
+    --ion-background-color:#ffffff;
+    background-color: #ffffff;
     alignItems: 'center';
     alignSelf: 'center';
     marginBottom: 16;
     marginTop: 16;
-    border-radius: 25px;
-}
-
-ion-img {
-    object-fit: cover;
+    border-radius: 10px;
+    height: 100%;
 }

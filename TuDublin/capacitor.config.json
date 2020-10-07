@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "TuDublin",
+  "appId": "coll.arthur.discount",
+  "appName": "TU Dublin Society Discounts",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
