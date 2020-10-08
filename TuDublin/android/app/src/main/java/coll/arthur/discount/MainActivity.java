@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package coll.arthur.discount;
 
 import android.os.Bundle;
 

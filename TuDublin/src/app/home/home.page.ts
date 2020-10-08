@@ -22,7 +22,10 @@ export class HomePage implements OnInit {
 
 }
 
-
+test() {
+  this.nativeStorage.setItem('didScan', {scanned: 'true'});
+        this.router.navigateByUrl('/list');
+}
 
   scan() {
     this.data = null;
